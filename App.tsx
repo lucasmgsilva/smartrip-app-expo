@@ -1,7 +1,8 @@
 import { Platform, StyleSheet, View } from 'react-native';
 import { WebView } from 'react-native-webview';
 
-const WEBSITE = 'http://192.168.0.108:5173/'
+// const WEBSITE = 'http://localhost:5173'
+const WEBSITE = 'http://192.168.0.100:5173'
 
 export default function App() {
   return (
