@@ -1,3 +1,4 @@
+import { StatusBar } from 'expo-status-bar';
 import { Platform, StyleSheet, View } from 'react-native';
 import { WebView } from 'react-native-webview';
 
@@ -13,7 +14,7 @@ export default function App() {
           onLoad={() => console.log('loaded')}
         />
       </View>
-      {/* <StatusBar style="auto" /> */}
+      <StatusBar style="auto" />
     </View>
   );
 }
